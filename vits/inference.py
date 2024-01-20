@@ -60,5 +60,5 @@ class VoiceClone():
                write(ref_audio.replace(".wav", "_clone.wav"), 22050, audio)
 
 if __name__ == "__main__":
-     object = VoiceClone("./pretrained/G_6000000.pth")
+     object = VoiceClone("./pretrained/Generator.pth")
      object.infer("hai ba hai ba", "./audio/sontung.wav")
