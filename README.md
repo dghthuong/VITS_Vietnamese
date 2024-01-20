@@ -13,6 +13,6 @@
 python train_ms.py -c configs/train.json
 
 or download pretrained model: https://drive.google.com/file/d/1_4IAWOJlEl0oD54KVloEmPGR30Ox2GRx/view?usp=sharing
-store in folder: ./VITS_Vietnamese/pretrained/G_6000000.pth
+store in folder: ./VITS_Vietnamese/pretrained/Generator.pth
 
 7. python inference.py
